@@ -21,4 +21,31 @@ class Calculator
         return pow($base, $exp);
     }
 
+
+    public function minus(float $x, float $y): float
+    {
+        return $x - $y;
+    }
+
+    public function multiplication(float $x, float $y): float
+    {
+        return $x * $y;
+    }
+
+    public function division(float $x, float $y): float
+    {
+        return $x / $y;
+    }
+
+    public function proc(float $x, float $y): float
+    {
+        return $x % $y;
+    }
+
+    public function ravno(float $x, float $y): float
+    {
+        if ($x == $y) {
+            return true;
+        } else return false;
+    }
 }
