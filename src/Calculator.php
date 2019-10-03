@@ -42,4 +42,9 @@ class Calculator
         return $x % $y;
     }
 
+    public function new_function(array $arr): array
+    {
+        $arr[1] = $arr[1] + 1;
+        return $arr;
+    }
 }
