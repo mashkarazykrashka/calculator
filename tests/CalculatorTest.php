@@ -53,13 +53,8 @@ class CalculatorTest extends TestCase
             'wrong proc'
         );
 
-        $this->assertIsFloat($this->calc->proc(27, 2));
+     
     
-        $this->assertTrue($this->calc->test_sort([1,5,6]), 'not sorted');
-
-        $this->assertTrue($this->calc->test_reverse([1,5,6]), 'not reversed');
-
-
     }
 
     protected function tearDown(): void
